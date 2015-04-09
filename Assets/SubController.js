@@ -2,10 +2,6 @@
 
 var speed : float;
 
-function Start() {
-	//GetComponent(VerticalOscillate).VerticalOscillate();
-}
-
 function Update() {
 	GetComponent(VerticalOscillate).VerticalOscillate();
 	
