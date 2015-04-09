@@ -49,6 +49,7 @@
      <Compile Include="Assets\Spin.js" />
      <Compile Include="Assets\SubController.js" />
      <Compile Include="Assets\SubEngine.js" />
+     <Compile Include="Assets\VerticalOscillate.js" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

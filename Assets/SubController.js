@@ -2,6 +2,10 @@
 
 var speed : float;
 
+function Start() {
+	GetComponent(VerticalOscillate).VerticalOscillate();
+}
+
 function Update() {
 	// get keyboard input
 	if (Input.GetAxis("Horizontal")) {
