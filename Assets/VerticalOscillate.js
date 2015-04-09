@@ -8,5 +8,5 @@ function Update () {
 }
 
 function VerticalOscillate() {
-	transform.localPosition = Vector3(0, 1, 0) * Mathf.Sin (Time.time) * amplitude;
+	transform.localPosition.y = Mathf.Sin (Time.time) * amplitude;
 }
